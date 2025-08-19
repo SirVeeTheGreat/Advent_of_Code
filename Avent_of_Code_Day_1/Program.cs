@@ -43,11 +43,7 @@ namespace Avent_of_Code_Day_1
                     difference = sortedLocationId_group2[i] - sortedLocationId_group1[i];
                 distance = distance.Append(difference).ToArray();
             }
-
-        
             Console.WriteLine("Distances between the two groups is: {0}", distance.Sum());
-
-
         }
 
         public static int[] SplitBySpaceCharacter(string input)
