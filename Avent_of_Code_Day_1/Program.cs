@@ -44,7 +44,7 @@ namespace Avent_of_Code_Day_1
                 distance = distance.Append(difference).ToArray();
             }
 
-            //Distances between the two groups is: 11
+        
             Console.WriteLine("Distances between the two groups is: {0}", distance.Sum());
 
 
