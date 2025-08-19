@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Avent_of_Code_Day_1
+namespace Advent_of_Code_Day_1
 {
     internal class Program
     {
