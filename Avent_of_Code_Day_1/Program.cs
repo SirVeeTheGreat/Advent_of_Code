@@ -1,4 +1,5 @@
 ﻿using Advent_of_Code.Challenges;
+using System;
 
 namespace Advent_of_Code
 {
@@ -19,13 +20,11 @@ namespace Advent_of_Code
             Console.WriteLine("Day 2 Challenge");
             newDay2Challenge.FindSafeReports();
             newDay2Challenge.TryRemoveUnsafeLevelsAndCalculateNewSafeReport();
+            Console.WriteLine("\n----------------------*End*---------------------------\n");
 
-
-
-
-
-
-
+            Day3 newDay3Challenge = new Day3();
+            Console.WriteLine("Day 3 Challenge");
+            newDay3Challenge.ScanMemory();
 
             Console.ReadLine();
         }
