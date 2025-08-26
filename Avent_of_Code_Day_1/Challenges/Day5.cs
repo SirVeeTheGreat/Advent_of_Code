@@ -7,8 +7,8 @@ internal class Day5 : Common
 
     public Day5()
     {
-        //_rules = new List<(int, int)>();
-        //_pageNumbers = new List<List<int>>();
+        _rules = new List<(int, int)>();
+        _pageNumbers = new List<List<int>>();
 
 
         //_rules.Add((47, 53));
@@ -43,7 +43,7 @@ internal class Day5 : Common
         //_pageNumbers.Add([97, 13, 75, 29, 47]);
 
 
-        //GetInputData("input#day5");
+        GetInputData("input#day5");
     }
 
     protected sealed override void GetInputData(string fileName)

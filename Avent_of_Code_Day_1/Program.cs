@@ -33,6 +33,7 @@ namespace Advent_of_Code
             newDay4Challenge.FindWordXMas();
             Console.WriteLine("\n----------------------*End*---------------------------\n");
 
+            Console.WriteLine("Day 4 Challenge");
             Day5 newDay5Challenge = new Day5();
             newDay5Challenge.GetMiddlePageFromOrderedPages();
             Console.ReadLine();
