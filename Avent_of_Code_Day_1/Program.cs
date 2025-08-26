@@ -25,7 +25,16 @@ namespace Advent_of_Code
             Day3 newDay3Challenge = new Day3();
             Console.WriteLine("Day 3 Challenge");
             newDay3Challenge.ScanMemory();
+            Console.WriteLine("\n----------------------*End*---------------------------\n");
 
+            Day4 newDay4Challenge = new Day4();
+            Console.WriteLine("Day 4 Challenge");
+            newDay4Challenge.FindWords();
+            newDay4Challenge.FindWordXMas();
+            Console.WriteLine("\n----------------------*End*---------------------------\n");
+
+            Day5 newDay5Challenge = new Day5();
+            newDay5Challenge.GetMiddlePageFromOrderedPages();
             Console.ReadLine();
         }
 
